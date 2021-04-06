@@ -13,13 +13,14 @@ body {
 h1 {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 15px;
 }
 .container {
   background-color: white;
   margin: 0 auto;
   border: 2px solid #bebebe;
   border-radius: 10px;
-  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
   width: 30rem;
   display: flex;
   justify-content: center;
@@ -27,22 +28,26 @@ h1 {
 
 }
 .input {
-  height: 15rem;
+  height: 10rem;
   width: 20rem;
+  padding-left: 0;
+  padding-top: 0;
   margin: 20px auto;
   display: block;
   border: 2px solid #bebebe;
   border-radius: 10px;
   outline: none;
+  
 }
-textarea {
+input {
   padding: 15px;
 }
 .btn {
-  margin: 10px auto;
+  margin: 10px 20px;
   height: 2.5rem;
   width: 7rem;
   background-color: #96fbc4; 
   border: 2px solid #909090;
   border-radius: 10px;
+  outline: none;
 }
